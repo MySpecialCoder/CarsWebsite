@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.section1 img{
+    width: 20%;
+}
+
+.headingall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1087px ) {
+
+    .sec p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 13rem;
+        left: -11rem;
+    }
+
+    .sec img{
+        width: 65%;
+        margin-top: 20rem;
+        position: relative;
+        top: 1rem;
+        left: 21rem;
+    }
+
+    .section2 p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 33rem;
+        left: 14rem;
+    
+    }
+
+    .section2 img{
+        width: 35%;
+        margin-top: 20rem;
+        position: relative;
+        top: 14rem;
+        left: -23rem;
+    
+    }
+
+    .section3 p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 51rem;
+        left: -14rem;
+    }
+
+    .section3 img{
+        width: 35%;
+        margin-top: 20rem;
+        position: relative;
+        top: 32rem;
+        left: 19rem;
+    }
+}
+
+@media only screen and (max-width: 320 ) {
+
+    .sec p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 13rem;
+        left: -11rem;
+    }
+
+    .sec img{
+        width: 65%;
+        margin-top: 20rem;
+        position: relative;
+        top: 1rem;
+        left: 21rem;
+    }
+
+    .section2 p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 33rem;
+        left: 14rem;
+    
+    }
+
+    .section2 img{
+        width: 35%;
+        margin-top: 20rem;
+        position: relative;
+        top: 14rem;
+        left: -23rem;
+    
+    }
+
+    .section3 p{
+        position: relative;
+        margin-left: 10rem;
+        margin-top: 10rem;
+        top: 51rem;
+        left: -14rem;
+    }
+
+    .section3 img{
+        width: 35%;
+        margin-top: 20rem;
+        position: relative;
+        top: 32rem;
+        left: 19rem;
+    }
+}

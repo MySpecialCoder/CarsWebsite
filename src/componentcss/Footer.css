@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+}
+
+.footer ul li{
+    margin: 12px;
+    display: inline-flex;
+    color: white;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    color: gray;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media only screen and (max-width: 1087px) {
+    .footer{
+        position: relative;
+        top: 55rem;
+    }
+
+}
